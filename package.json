@@ -1,6 +1,6 @@
 {
   "name": "stray-bird",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "show a random stray birt line ",
   "main": "index.js",
   "bin": "index.js",
@@ -12,6 +12,10 @@
     "bird",
     "poem"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://git.suntao.science/suntao/stray-bird.git"
+  },
   "author": "suntao tiger",
   "license": "MIT"
 }

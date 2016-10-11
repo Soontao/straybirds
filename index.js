@@ -6,4 +6,4 @@ const random = (max) => Math.ceil(Math.random() * max);
 let thisIdx = random(length);
 let thisChapter = chapters[thisIdx];
 
-console.log(`\r\nChapter ${thisIdx} \r\n ${thisChapter}`);
+console.log(`\r\nStray Birds - Chapter ${thisIdx} \r\nRabindranath Tagore\r\n ${thisChapter}`);
