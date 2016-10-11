@@ -1,9 +1,12 @@
 #!/usr/bin/env node
-const chapters = require('./stray.json');
-const length = Object.keys(chapters).length;
-const random = (max) => Math.ceil(Math.random() * max);
 
-let thisIdx = random(length);
-let thisChapter = chapters[thisIdx];
+var chapters = require('./stray.json');
+var length = Object.keys(chapters).length;
+var random = function (max) {
+  return Math.ceil(Math.random() * max);
+}
+
+var thisIdx = random(length);
+var thisChapter = chapters[thisIdx];
 
 console.log(`\r\nStray Birds - Chapter ${thisIdx} \r\nRabindranath Tagore\r\n ${thisChapter}`);

@@ -1,6 +1,6 @@
 {
   "name": "stray-bird",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "show a random stray birt line ",
   "main": "index.js",
   "bin": "index.js",
