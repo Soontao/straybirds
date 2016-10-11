@@ -2,16 +2,15 @@
 
 show a chapter of the Stray Birds
 
-显示一条飞鸟集里面的诗句
+随机显示一条飞鸟集里面的诗句
 
 ```
 > stray-bird
+Stray Birds - Chapter 135
+Rabindranath Tagore
 
-Stray Birds - Chapter 43                                                                                                                           
-Rabindranath Tagore                                                                                                                                
-                                                                                                                                                   
-水里的游鱼是沉默的，陆地上的兽类是喧闹的，空中的飞鸟是歌唱着的。                                                                                   
-但是，人类却兼有海里的沉默，地上的喧闹与空中的音乐。                                                                                               
-The fish in the water is silent, the animal on the earth is noisy, the bird in the air is singing.                                                 
-But Man has in him the silence of the sea, the noise of the earth and the music of the air.        
+阴雨的黄昏，风无休止地吹着。
+我看着摇曳的树枝，想念万物的伟大。
+This rainy evening the wind is restless.
+I look at the swaying branches and ponder over the greatness of all things.   
 ```

@@ -9,4 +9,6 @@ var random = function (max) {
 var thisIdx = random(length);
 var thisChapter = chapters[thisIdx];
 
-console.log(`\r\nStray Birds - Chapter ${thisIdx} \r\nRabindranath Tagore\r\n ${thisChapter}`);
+console.log(`Stray Birds - Chapter ${thisIdx} \r\nRabindranath Tagore\r\n ${thisChapter}`);
+
+process.exit()
