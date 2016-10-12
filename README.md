@@ -36,8 +36,12 @@ Let this be my last word, that I trust thy love.
 
 or
 
+```
+npm i stray-bird --save
+```
+
 ```javascript
 var s = require('stray-bird');
 var chapter = s() // a random chapter
-var chapter_325 = s(325) // a cetern chapter
+var chapter_325 = s(325) // a certern chapter
 ```
