@@ -8,9 +8,20 @@ var random = function (max) {
   return Math.ceil(Math.random() * max);
 }
 
-var thisIdx = process.argv[2] <= length ? process.argv[2] : random(length);
-var thisChapter = chapters[thisIdx];
+var random_chapter = function (init) {
+  var thisIdx = init <= length ? init : random(length);
+  var thisChapter = chapters[thisIdx];
+  return {
+    idx: thisIdx,
+    content: thisChapter
+  };
+}
 
-console.log(`Stray Birds - Chapter ${thisIdx} \r\nRabindranath Tagore\r\n ${thisChapter}`);
-
-process.exit()
+if (require.main) {
+  var chapter = random_chapter(process.argv[2])
+  console.log(`Stray Birds - Chapter ${chapter.idx} \r\nRabindranath Tagore\r\n ${chapter.content}`);
+  process.exit()
+}
+else {
+  module.exports = random_chapter;
+}
