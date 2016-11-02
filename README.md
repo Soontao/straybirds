@@ -13,7 +13,7 @@ show a chapter of the Stray Birds
 ## usage
 
 ```
-> stray-bird
+> sb
 Stray Birds - Chapter 135
 Rabindranath Tagore
 
@@ -26,7 +26,7 @@ I look at the swaying branches and ponder over the greatness of all things.
 or 
 
 ```
-> stray-bird 325
+> sb 325
 Stray Birds - Chapter 325
 Rabindranath Tagore
 
