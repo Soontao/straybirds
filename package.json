@@ -1,6 +1,6 @@
 {
   "name": "stray-bird",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Show a random chapter of the Stray Birds ",
   "main": "index.js",
   "bin": {
