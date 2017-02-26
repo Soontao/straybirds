@@ -1,0 +1,44 @@
+body {
+	background: black;
+	background-size: cover;
+	/* 将鼠标设定为默认 */
+	cursor: default;
+}
+
+
+/*适配v-cloak*/
+
+[v-cloak] {
+	display: none;
+}
+
+
+/* 垂直和水平居中 */
+
+.center-in-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	/*响应式单位*/
+	font-size: calc(1.8vw + 1.8vh);
+	font-family: "华文隶书";
+	/*文字阴影*/
+	text-shadow: gray 1px 1px 1px;
+	text-rendering: geometricPrecision;
+	font-size-adjust: inherit;
+	perspective: 100%;
+	/*35% 透明*/
+	opacity: 0.65;
+}
+
+
+/* 不允许选中文字 */
+
+.unselectable {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
