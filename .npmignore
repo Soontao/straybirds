@@ -1,1 +1,6 @@
+stray.json
 stray.txt
+*.tgz
+.github
+.whitesource
+preProcess.js
