@@ -23,6 +23,6 @@ jobs:
       - run: npm shrinkwrap
 
       - name: npm auth & publish
-        run: npm run build && npm publish --access public --tag latest
+        run: npm publish --access public --tag latest
         env:
           NODE_AUTH_TOKEN: ${{secrets.Z_NPM_TOKEN}}
