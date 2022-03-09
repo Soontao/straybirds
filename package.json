@@ -1,13 +1,18 @@
 {
   "name": "stray-bird",
   "version": "1.0.9",
-  "description": "Show a random chapter of the Stray Birds ",
+  "description": "Show a random chapter of the 'Stray Birds'",
   "main": "index.js",
+  "engines": {
+    "node": ">=8"
+  },
   "bin": {
-    "sb": "index.js"
+    "sb": "index.js",
+    "stray-birds": "index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No test specified\" && exit 0",
+    "release": "npx standard-version --no-verify"
   },
   "keywords": [
     "stray",
@@ -18,6 +23,18 @@
     "type": "git",
     "url": "https://git.suntao.science/suntao/stray-bird.git"
   },
-  "author": "suntao Tagore",
-  "license": "MIT"
+  "author": {
+    "name": "Tagore"
+  },
+  "contributors": [
+    {
+      "name": "Theo Sun",
+      "email": "theo.sun@outlook.com"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "colors": "^1.4.0"
+  }
 }
